@@ -21,6 +21,7 @@ public class DiplomaServiceImpl implements DiplomaService{
     public DiplomaDto generateDiploma(Aluno a1) {
 
         dto.setAluno(a1.getNome());
+        ArrayList<Diploma> diplomas = new ArrayList<>();
 
         for(Disciplina d1 : a1.getDisciplina()){
             Diploma diploma = new Diploma();
@@ -39,7 +40,6 @@ public class DiplomaServiceImpl implements DiplomaService{
             diploma.setMensagem(mensagem);
             diploma.setMedia(media);
             diploma.setDisciplina(d1.getNome());
-            ArrayList<Diploma> diplomas = dto.getDiploma();
             diplomas.add(diploma);
             dto.setDiploma(diplomas);
         }
