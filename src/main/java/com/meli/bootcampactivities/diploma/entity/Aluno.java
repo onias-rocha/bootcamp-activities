@@ -1,4 +1,4 @@
-package com.meli.bootcampactivities.entity;
+package com.meli.bootcampactivities.diploma.entity;
 
 import lombok.Data;
 import java.util.ArrayList;

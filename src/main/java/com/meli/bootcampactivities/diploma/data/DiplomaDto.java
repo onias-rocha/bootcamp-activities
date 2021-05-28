@@ -1,6 +1,6 @@
-package com.meli.bootcampactivities.data;
+package com.meli.bootcampactivities.diploma.data;
 
-import com.meli.bootcampactivities.entity.Diploma;
+import com.meli.bootcampactivities.diploma.entity.Diploma;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 

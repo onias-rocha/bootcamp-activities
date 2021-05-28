@@ -1,9 +1,9 @@
-package com.meli.bootcampactivities.service;
+package com.meli.bootcampactivities.diploma.service;
 
-import com.meli.bootcampactivities.data.DiplomaDto;
-import com.meli.bootcampactivities.entity.Aluno;
-import com.meli.bootcampactivities.entity.Diploma;
-import com.meli.bootcampactivities.entity.Disciplina;
+import com.meli.bootcampactivities.diploma.data.DiplomaDto;
+import com.meli.bootcampactivities.diploma.entity.Aluno;
+import com.meli.bootcampactivities.diploma.entity.Diploma;
+import com.meli.bootcampactivities.diploma.entity.Disciplina;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
